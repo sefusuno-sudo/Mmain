@@ -15,9 +15,15 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 APIRONE_API_KEY = os.getenv("APIRONE_API_KEY")
 APIRONE_INVOICE_URL = "https://api.apirone.com/v2/invoice"
 
+# --- CONFIGURARE PRODUSE ---
 PRODUCTS = {
-    "cacao_1g": {"name": "Cacao 1g", "price": 170},
-    "coffea_1g": {"name": "Coffea 1g", "price": 100}
+    "cacao": {
+        "name": "Cacao 1g", 
+        "price_ron": 170
+    },
+    "coffea": {
+        "name": "Coffea 1g", 
+        "price_ron": 100
 }
 CITIES = ["Chisinau", "București"]
 
